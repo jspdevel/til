@@ -1,5 +1,7 @@
-# til
-Today I Learned
+# Today I Learned (TIL)
+This is a growing collection of random things that I've picked up over time and don't want to forget.
+There is no organisation or coherence to it all. It's just a list. It's messy. But it's mine :)
+More recently I've been collecting these in Notion because it's easier to manage.
 
 - rails console -- --nomultiline
 - printenv
