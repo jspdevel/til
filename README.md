@@ -93,4 +93,6 @@ FROM generate_series(
     
 - [https://til.hashrocket.com/posts/f4agttd8si-chaining-then-in-ruby-26](https://til.hashrocket.com/posts/f4agttd8si-chaining-then-in-ruby-26)
 - Cmd-K on github
--
+- ssl rails server → [https://gist.github.com/trcarden/3295935](https://gist.github.com/trcarden/3295935)
+- “show data_directory” - postgres/psql
+- [http://localhost:3000/rails/info/routes](http://localhost:3000/rails/info/routes) show rails routes in browser
