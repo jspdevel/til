@@ -76,6 +76,10 @@ FROM generate_series(
 
 - postgresql equivalent of mysql's "insert ignore"
     - insert into table (column) values ('value') on conflict do nothing.
+- Rails wildcard routes can contain multiple parameters. I'm not sure why this wasnt' obvious to me before? I guess I've only ever used one at a time.
+`"*a/route/*b"`
+`params[:a]`
+`params[:b]`
 - which -a executable : will show all options, not just the first
 - console.log({width}) is equivalent to console.log('width', width)
 - "Weeks of coding can save you hours of planning"
