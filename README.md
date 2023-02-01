@@ -102,3 +102,4 @@ FROM generate_series(
 - ssl rails server → [https://gist.github.com/trcarden/3295935](https://gist.github.com/trcarden/3295935)
 - “show data_directory” - postgres/psql
 - [http://localhost:3000/rails/info/routes](http://localhost:3000/rails/info/routes) show rails routes in browser
+- https://hstspreload.org
