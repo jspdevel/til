@@ -103,3 +103,6 @@ FROM generate_series(
 - “show data_directory” - postgres/psql
 - [http://localhost:3000/rails/info/routes](http://localhost:3000/rails/info/routes) show rails routes in browser
 - https://hstspreload.org
+- fix postgres serial sequence when it goes out of date
+    - SELECT nextval('discounts_id_seq'); # check existing sequence
+    - SELECT SETVAL('public."discounts_id_seq"', COALESCE(MAX(id), 1)) FROM public."discounts";
