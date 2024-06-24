@@ -106,3 +106,4 @@ FROM generate_series(
 - fix postgres serial sequence when it goes out of date
     - SELECT nextval('discounts_id_seq'); # check existing sequence
     - SELECT SETVAL('public."discounts_id_seq"', COALESCE(MAX(id), 1)) FROM public."discounts";
+- how to edit directly in github
