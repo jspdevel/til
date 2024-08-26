@@ -108,3 +108,4 @@ FROM generate_series(
     - SELECT SETVAL('public."discounts_id_seq"', COALESCE(MAX(id), 1)) FROM public."discounts";
 - how to edit directly in github
 - ditto
+- how to fake git commit date
