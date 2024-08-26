@@ -107,3 +107,4 @@ FROM generate_series(
     - SELECT nextval('discounts_id_seq'); # check existing sequence
     - SELECT SETVAL('public."discounts_id_seq"', COALESCE(MAX(id), 1)) FROM public."discounts";
 - how to edit directly in github
+- how to fake the git commit date
